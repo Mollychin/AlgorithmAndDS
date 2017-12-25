@@ -54,7 +54,7 @@ public class SmallestLetterGreaterThanGivenOneTest {
       booleans[c - 'a'] = true;
     }
     while (true) {
-      target++; //这步很关键
+      target++; //key point
       if (target > 'z') {
         return 'a';
       }
