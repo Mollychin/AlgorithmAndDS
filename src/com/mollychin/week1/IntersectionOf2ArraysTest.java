@@ -11,6 +11,9 @@ import java.util.Set;
  */
 public class IntersectionOf2ArraysTest {
 
+  /**
+   * main function.
+   */
   public static void main(String[] args) {
     int[] intersectArray = intersectionOf2Arrays3(new int[]{1, 2, 3, 4, 5}, new int[]{2, 3});
     for (int i = 0; i < intersectArray.length; i++) {
@@ -90,7 +93,10 @@ public class IntersectionOf2ArraysTest {
     return result;
   }
 
-  public static  boolean binarySearch(int[] nums, int target) {
+  /**
+   * binary research.Time complexity: O(nlogn)
+   */
+  public static boolean binarySearch(int[] nums, int target) {
     int low = 0;
     int high = nums.length - 1;
     while (low <= high) {
