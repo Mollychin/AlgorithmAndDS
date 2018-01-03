@@ -28,6 +28,9 @@ public class FirstBadVersionTest {
     return true;
   }
 
+  /**
+   * I think this is similar to findTheSmallestNumGreaterThanTheGivenOne Test.
+   */
   public static int findFirstBadVersion(int n) {
     int start = 1, end = n;
     while (start < end) {
@@ -41,5 +44,4 @@ public class FirstBadVersionTest {
     }
     return start;
   }
-
 }
