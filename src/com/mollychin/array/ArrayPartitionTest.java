@@ -13,6 +13,7 @@ public class ArrayPartitionTest {
     int i = arrayPairSum(new int[]{1, 2, 3, 4});
     System.out.println(i);
   }
+
   public static int arrayPairSum(int[] nums) {
     Arrays.sort(nums);//排序之后第奇数个之和是sum
     int i = 0;
